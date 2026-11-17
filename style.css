@@ -1,0 +1,183 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.skate{
+    background-color: rgb(201, 0, 0);
+    width: 25%;
+    height: 100%;
+}
+.boombox{
+    background-color:rgb(50, 248, 0);
+    width: 25%;
+    height: 100%;
+}
+.coil{
+    background-color:rgb(248, 120, 0);
+    width: 25%;
+    height: 100%;
+}
+.rocket{
+    background-color:rgb(0, 108, 248);
+    width: 25%;
+    height: 100%;
+}
+.skate li{
+    background-color: rgb(223, 76, 76);
+    margin: 10px;
+    line-height: 2em;
+    border-radius: 2em;
+    width: 50%;
+    padding-left: 10px;
+    height: 100%;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(skate.png);
+}
+.boombox li{
+    background-color: rgb(152, 255, 149);
+    margin: 10px;
+    line-height: 2em;
+    border-radius: 2em;
+    width: 50%;
+    padding-left: 10px;
+    height: 100%;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(boombox.png);
+}
+.coil li{
+    background-color: rgb(255, 192, 99);
+    margin: 10px;
+    line-height: 2em;
+    border-radius: 2em;
+    width: 50%;
+    padding-left: 10px;
+    height: 100%;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(coil.png);
+}
+.rocket li{
+    background-color: rgb(185, 213, 255);
+    margin: 10px;
+    line-height: 2em;
+    border-radius: 2em;
+    width: 50%;
+    padding-left: 10px;
+    height: 100%;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(rocket.png);
+}
+.skate li:hover{
+    background-color: rgb(187, 28, 0);
+    color: rgb(223, 76, 76);
+    width: 55%;
+    height: 50px;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 0, 0);
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid rgb(61, 0, 0);
+    text-align: center;
+    overflow: hidden;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: rgb(146, 6, 1);
+    color: aliceblue;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.TJ{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: rgb(255, 217, 0);
+}
+.najmi{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 102, 0);
+    color: brown;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 0px 200px black;
+    cursor: pointer;
+
+}
+.najmi:hover{
+    color: beige;
+    background-color: aqua;
+    border: 2px solid red;
+    box-shadow: 0px 0px 0px black;
+}
+.najmi:active{
+    background-color: blue;
+    color: blueviolet;
+    
+}
